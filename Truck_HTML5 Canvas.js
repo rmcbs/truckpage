@@ -8784,10 +8784,10 @@ p.nominalBounds = new cjs.Rectangle(0.5,-42.8,5803,1045.1);
 			window.open("https://rmcbs.github.io", "_self");
 		}
 		function fl_ClickToGoToWebPage_2() {
-			window.open("http://www.adobe.com", "_self");
+			window.open("https://rmcbs.github.io/foundationpage", "_self");
 		}
 		function fl_ClickToGoToWebPage_3() {
-			window.open("http://www.adobe.com", "_self");
+			window.open("https://rmcbs.github.io/joinpage", "_self");
 		}
 	}
 
