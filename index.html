@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
 <html>
 <head>
 <meta charset="UTF-8">
@@ -5,11 +14,14 @@
 <title>Truck_HTML5 Canvas</title>
 <!-- write your code here -->
 <style>
+  body {
+	overflow:hidden;
+  }
   #animation_container {
 	position:absolute;
 	margin:auto;
-	left:0;right:0;
-	top:0;bottom:0;
+	left:-100%;right:-100%;
+	top:-100%;bottom:-100%;
   }
 </style>
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
@@ -82,7 +94,7 @@ function handleComplete(evt,comp) {
 			stage.tickOnUpdate = true;		
 		}
 	}
-	makeResponsive(true,'both',true,1);	
+	makeResponsive(true,'both',true,2);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
