@@ -5561,9 +5561,6 @@ p.nominalBounds = new cjs.Rectangle(-27.5,-24.5,55.1,49);
 	this.frame_97 = function() {
 		playSound("TruckTapeMeasureOw");
 	}
-	this.frame_586 = function() {
-		playSound("TruckFirst3");
-	}
 	this.frame_599 = function() {
 		playSound("CarStart01");
 	}
@@ -5575,7 +5572,7 @@ p.nominalBounds = new cjs.Rectangle(-27.5,-24.5,55.1,49);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(94).call(this.frame_94).wait(3).call(this.frame_97).wait(489).call(this.frame_586).wait(13).call(this.frame_599).wait(27).call(this.frame_626).wait(93).call(this.frame_719).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(94).call(this.frame_94).wait(3).call(this.frame_97).wait(502).call(this.frame_599).wait(27).call(this.frame_626).wait(93).call(this.frame_719).wait(1));
 
 	// backtire
 	this.instance = new lib.backtire();
@@ -9742,7 +9739,6 @@ lib.properties = {
 		{src:"sounds/MetalHit1_mixdown.mp3", id:"MetalHit1_mixdown"},
 		{src:"sounds/TruckPage_FINAL1.mp3", id:"TruckPage_FINAL1"},
 		{src:"sounds/TruckPage_FINAL2.mp3", id:"TruckPage_FINAL2"},
-		{src:"sounds/TruckFirst3.mp3", id:"TruckFirst3"},
 		{src:"sounds/TruckTapeMeasure.mp3", id:"TruckTapeMeasure"},
 		{src:"sounds/TruckTapeMeasureOw.mp3", id:"TruckTapeMeasureOw"}
 	],
